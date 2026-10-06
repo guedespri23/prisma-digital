@@ -3,17 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prisma Digital</title>
+
+    <title>Prisma Digital | Criação de Sites Profissionais</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5efff;
+            color: #29213d;
+        }
+
+        header {
+            background: #6c3fb5;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 16px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            max-width: 650px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+
+        .botao {
+            display: inline-block;
+            background: #6c3fb5;
+            color: white;
+            padding: 15px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .servicos {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .servicos h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #6c3fb5;
+        }
+
+        .card p {
+            line-height: 1.5;
+        }
+
+        .sobre {
+            background: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .sobre h2 {
+            margin-bottom: 20px;
+        }
+
+        .sobre p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        .contato {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .contato h2 {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #29213d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
 </head>
-<body><style>
-    body {
-        background-color: #f3e8ff;
-        font-family: Arial, sans-serif;
-    }
-</style>
 
-    <h1>Prisma Digital</h1>
-    <p>Criação de sites profissionais para empresas.</p>
+<body>
 
-</body>
-</html>
+    <header>
+        <h1>Prisma Digital</h1>
+        <p>Sites profissionais para empresas e pequenos negócios.</p>
+    </header>
+
+    <section class="hero">
+        <h2>Seu negócio merece uma presença digital profissional.</h2>
+
+        <p>
+            Criamos sites modernos, bonitos e personalizados
+            para apresentar sua empresa na internet.
+        </p>
+
+        <a class="botao" href="#contato">
+            Quero criar meu site
+        </a>
+    </section>
+
+    <section class="servicos">
+        <h2>O que fazemos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🌐 Criação de Sites</h3>
+                <p>
+                    Sites modernos e profissionais para apresentar
+                    sua empresa na internet.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📱 Sites Responsivos</h3>
+                <p>
+                    Seu site funcionando bem no celular,
+                    tablet e computador.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💬 WhatsApp</h3>
+                <p>
+                    Facilitamos o contato entre sua empresa
+                    e seus clientes.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>✨ Design Personalizado</h3>
+                <p>
+                    Criamos uma identidade visual de acordo
+                    com o estilo do seu negócio.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="sobre">
+        <h2>Sobre a Prisma Digital</h2>
+
+        <p>
+            A Prisma Digital nasceu para ajudar empresas,
+            profissionais autônomos e pequenos negócios a
+            conquistarem seu espaço na internet através
+            de sites bonitos, modernos e profissionais.
+        </p>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2>Vamos criar seu site?</h2>
+
+        <p>
+            Entre em contato e conte para nós sobre o seu negócio.
+        </p>
+
+        <br>
+
+        <a class="botao" href="#">
+            Falar pelo WhatsApp
+        </a>
+    </section>
+
+    <footer>
+        <
